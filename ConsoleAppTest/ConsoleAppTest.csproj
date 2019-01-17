@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5D820598-3905-4092-B19A-35511093ACA0}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>ConsoleAppTest</RootNamespace>
+    <AssemblyName>ConsoleAppTest</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AutoMapper">
+      <HintPath>..\..\SolutionOfferKayalar\OfferKayalar\bin\AutoMapper.dll</HintPath>
+    </Reference>
+    <Reference Include="Dapper">
+      <HintPath>..\OnlineTalent.Database\bin\Debug\Dapper.dll</HintPath>
+    </Reference>
+    <Reference Include="HowManyCountModel">
+      <HintPath>..\..\SolutionHowManyCount\HowManyCountModel\bin\Debug\HowManyCountModel.dll</HintPath>
+    </Reference>
+    <Reference Include="NLog">
+      <HintPath>..\OnlineTalent.Database\bin\Debug\NLog.dll</HintPath>
+    </Reference>
+    <Reference Include="OfferKayalarModel">
+      <HintPath>..\..\SolutionOfferKayalar\OfferKayalarModel\bin\Debug\OfferKayalarModel.dll</HintPath>
+    </Reference>
+    <Reference Include="OnlineTalent.Core">
+      <HintPath>..\OnlineTalent.Core\bin\Debug\OnlineTalent.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="OnlineTalent.Database">
+      <HintPath>..\OnlineTalent.Database\bin\Debug\OnlineTalent.Database.dll</HintPath>
+    </Reference>
+    <Reference Include="OnlineTalent.Interfaces">
+      <HintPath>..\OnlineTalent.Interfaces\bin\Debug\OnlineTalent.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="OnlineTalent.JsonData">
+      <HintPath>..\OnlineTalent.JsonData\bin\Debug\OnlineTalent.JsonData.dll</HintPath>
+    </Reference>
+    <Reference Include="OnlineTalent.Log">
+      <HintPath>..\OnlineTalent.Log\bin\Debug\OnlineTalent.Log.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+    <Reference Include="TalentBaseModel">
+      <HintPath>..\..\TalentBaseSolution\TalentBaseModel\bin\Release\TalentBaseModel.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Class\Urun.cs" />
+    <Compile Include="CreateDynamicPage.cs" />
+    <Compile Include="DatabaseTest.cs" />
+    <Compile Include="JsonTest.cs" />
+    <Compile Include="NLogTest.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
