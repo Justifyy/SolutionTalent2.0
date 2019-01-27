@@ -1,0 +1,10 @@
+D:\Disk1\Projeler\Visual Studio 2017\Projects\SolutionTalent2.0\OnlineTalent.Log\bin\Debug\NLog.config
+D:\Disk1\Projeler\Visual Studio 2017\Projects\SolutionTalent2.0\OnlineTalent.Log\bin\Debug\OnlineTalent.Log.dll
+D:\Disk1\Projeler\Visual Studio 2017\Projects\SolutionTalent2.0\OnlineTalent.Log\bin\Debug\OnlineTalent.Log.pdb
+D:\Disk1\Projeler\Visual Studio 2017\Projects\SolutionTalent2.0\OnlineTalent.Log\bin\Debug\NLog.dll
+D:\Disk1\Projeler\Visual Studio 2017\Projects\SolutionTalent2.0\OnlineTalent.Log\bin\Debug\NLog.xml
+D:\Disk1\Projeler\Visual Studio 2017\Projects\SolutionTalent2.0\OnlineTalent.Log\obj\Debug\OnlineTalent.Log.csproj.CoreCompileInputs.cache
+D:\Disk1\Projeler\Visual Studio 2017\Projects\SolutionTalent2.0\OnlineTalent.Log\obj\Debug\OnlineTalent.Log.csproj.CopyComplete
+D:\Disk1\Projeler\Visual Studio 2017\Projects\SolutionTalent2.0\OnlineTalent.Log\obj\Debug\OnlineTalent.Log.dll
+D:\Disk1\Projeler\Visual Studio 2017\Projects\SolutionTalent2.0\OnlineTalent.Log\obj\Debug\OnlineTalent.Log.pdb
+D:\Disk1\Projeler\Visual Studio 2017\Projects\SolutionTalent2.0\OnlineTalent.Log\obj\Debug\OnlineTalent.Log.csprojAssemblyReference.cache
